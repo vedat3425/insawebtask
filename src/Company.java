@@ -24,20 +24,8 @@ public class Company {
         WebElement careersLink = driver.findElement(By.xpath("//a[@href='https://useinsider.com/careers/' and @class='dropdown-sub']"));
         careersLink.click();
 
-        // Check if Career page is open
-        // boolean careerPageIsOpen = driver.getCurrentUrl().contains("careers"); // Replace with the actual URL for the careers page
-/*
-        WebElement locationsBlock = driver.findElement(By.cssSelector("#career-our-location > div > div > div > div.col-12.col-md-6 > h3"));
-        WebElement teamsBlock = driver.findElement(By.id("teams"));
-        WebElement lifeAtInsiderBlock = driver.findElement(By.id("life-at-insider"));
-
-        if (locationsBlock.isDisplayed() && teamsBlock.isDisplayed() && lifeAtInsiderBlock.isDisplayed()) {
-            System.out.println("Career page, its Locations, Teams, and Life at Insider blocks are open.");
-        } else {
-            System.out.println("One or more blocks are not open on the Career page.");
-        }
 
 
- */
+
     }
 }

@@ -8,7 +8,6 @@ public class BaseTest {
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe ");
             WebDriverWait wait = new WebDriverWait(driver, java.time.Duration.ofSeconds(10));
 
-
          driver.get("https://useinsider.com/");
         String pageTitle = driver.getTitle();
         driver.manage().window().maximize();
