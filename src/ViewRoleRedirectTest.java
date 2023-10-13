@@ -65,7 +65,8 @@ public class ViewRoleRedirectTest {
 
         System.out.println("Tüm doğrulamalar başarıyla tamamlandı.");
 
-
+        driver.close();
+        driver.switchTo().window(mainWindowHandle);
 
     }
 
