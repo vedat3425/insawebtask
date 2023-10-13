@@ -10,15 +10,15 @@ public class TestWeb {
 
   public static void main(String[] args) {
      WebDriver driver=new ChromeDriver();
-         WebDriverWait wait = new WebDriverWait(driver, java.time.Duration.ofSeconds(10));
+      WebDriverWait wait = new WebDriverWait(driver, java.time.Duration.ofSeconds(10));
       BaseTest.setUp(driver);
       Cookie.disableCookie(driver);
       Company.selectCompany(driver);
       QualitAssuranceMenu.QA(driver);
       CheckJobs.Jobs(driver);
       ViewRoleRedirectTest.viewRole(driver);
+      BaseTest.cıkıs(driver);
 
-      driver.quit();
 
 
 
